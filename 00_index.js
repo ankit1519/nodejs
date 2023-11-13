@@ -1,4 +1,4 @@
-const app=require('./app')
+const app=require('./01_app')
 console.log(app.x);
 app.fun()
 app.fun2(12)
