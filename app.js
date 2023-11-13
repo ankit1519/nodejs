@@ -7,4 +7,5 @@ module.exports={
     fun2:(a)=>{
         console.log(`param is ${a}`);
     }
+    
 }
