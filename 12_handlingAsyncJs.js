@@ -10,5 +10,7 @@ waitingData.then((data)=>{
     b=data
     console.log(a+b);
 })*/
+
+
 //in short
-new Promise((resolve,reject)=> setTimeout(()=>resolve(30))).then((data)=>console.log(a+data))
+new Promise((resolve,reject)=> setTimeout(()=>resolve(30))).then((data)=>console.log(a+data)) 
