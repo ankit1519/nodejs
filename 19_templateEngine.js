@@ -16,7 +16,12 @@ app.get("/blog",(req,res)=>{
 })
 //using ejs
 app.get("/profile",(req,res)=>{
-    res.render('profile')
+    const data={
+        name:"Ankit Raj",
+        Reg:99,
+        mail:'raazankit1502@gmail.com'
+    }
+    res.render('profile',{data})
 })
 
 app.get("*",(req,res)=>{
