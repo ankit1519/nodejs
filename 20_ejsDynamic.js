@@ -29,4 +29,4 @@ app.get("*",(req,res)=>{
     res.sendFile(`${publicPath}/noPage.html`)
 })
 //app.use(express.static(publicPath))
-app.listen(5000);
+app.listen(5000);  
